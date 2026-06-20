@@ -1,0 +1,26 @@
+{
+  "name": "jpvano-payments",
+  "version": "1.0.0",
+  "description": "JPvano Payments Service - Nexano Integration",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "webhook:test": "ts-node src/webhook-test.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "@supabase/supabase-js": "^2.33.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.1.0",
+    "typescript": "^5.0.2",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.7"
+  }
+}

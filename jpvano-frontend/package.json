@@ -1,0 +1,48 @@
+{
+  "name": "jpvano-frontend",
+  "version": "1.0.0",
+  "description": "JPvano Social Network Frontend",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "next": "^14.0.0",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.3.0",
+    "axios": "^1.4.0",
+    "socket.io-client": "^4.5.4",
+    "zustand": "^4.3.8",
+    "zustand-persist": "^1.0.3",
+    "next-themes": "^0.2.1",
+    "framer-motion": "^10.12.16",
+    "react-hook-form": "^7.43.9",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.10.1",
+    "uuid": "^9.0.0",
+    "date-fns": "^2.30.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^1.13.2",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "next-image-export-optimizer": "^2.5.7",
+    "js-cookie": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/node": "^20.0.0",
+    "@types/js-cookie": "^3.0.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.40.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
