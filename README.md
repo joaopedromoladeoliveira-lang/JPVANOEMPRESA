@@ -689,12 +689,7 @@ server {
 }
 ```
 
-## 📊 Conta Admin Padrão
 
-```
-Email: joaopedromoladeoliveira@gmail.com
-Senha: Pedro12@
-```
 
 ### Acessar Admin Dashboard
 ```
